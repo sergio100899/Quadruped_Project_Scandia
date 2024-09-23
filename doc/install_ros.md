@@ -3,6 +3,7 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
 
 1. ## Instalacion de ROS
     La versión de ROS que usaremos será Humble y gazebo classic, para esto necesitamos tener   instalado la versión 22.04 de Ubuntu que se llama Jammy.
+
     <img src="../images/Humble.png" alt="Descripción de la imagen" width="200"/>  
 
     Instalar ubuntu se puede hacer de varias maneras, la más sencilla es atravez de [wsl2](https://learn.microsoft.com/es-es/windows/wsl/install), las otras son dual boot y a travez de una máquina virtual.
@@ -12,12 +13,12 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
 
 2. ### Instalar wsl en windows 
     Para esto se puede seguir la guía oficial de windows [link](https://learn.microsoft.com/es-es/windows/wsl/) o sino siga estos pasos:
-    1. Abrir un terminal de windows PowerShell o Windows Command en modo administrador.
+    1. #### Abrir un terminal de windows PowerShell o Windows Command en modo administrador.
 
         #### Image
         <img src="../images/power_shell.png" alt="Descripción de la imagen" width="600"/>   
 
-    2. Ejecutar
+    2. #### Ejecutar
 
         ```bash
         wsl --install -d Ubuntu-22.04
@@ -25,24 +26,19 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
         #### Output (en el caso de ustedes se procedera con la instalación)
         <img src="../images/output_terminal.png" alt="Descripción de la imagen" width="600"/>   
 
-    3. Descargar visual estudio code
+    3. #### Descargar visual estudio code
 
         ```bash
         wsl --install -d Ubuntu-22.04
         ```
 
-    3. 
-
-        ```bash
-        wsl --install -d Ubuntu-22.04
-        ```
 3. ### Instalar Ubuntu en dual boot
     Para instalar rn dual boot se encuentran varios videos de youtube, [video](https://www.youtube.com/watch?v=FId4-IO-yj4) 
 
 4. ### Instalar ROS2 Humble
     Para instalar Ros2 Humble solo seguir el siguiente [documento](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) o en tal caso ejecutar las siguientes lineas de codigo en el terminal. 
 
-    1. Configuración regional o local
+    1. #### Configuración regional o local
 
         ```bash
         locale  # check for UTF-8
@@ -54,7 +50,7 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
 
         locale  # verify settings
         ```
-    2. Setup resources
+    2. #### Setup resources
 
         ```bash
         sudo apt install software-properties-common
@@ -66,14 +62,14 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
         echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
         ```
-    3. Install ros2
+    3. #### Install ros2
 
         ```bash
         sudo apt update
         sudo apt upgrade
         sudo apt install ros-humble-desktop
         ```
-    4. Configuración de entorno 
+    4. #### Configuración de entorno 
 
         Cada vez que se abre una nueva terminal, es necesario configurarla utilizando el siguiente comando:
         ```bash
@@ -87,7 +83,7 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
         ```bash
         source ~/.bashrc
         ```
-    5. Probar un ejemplo básico
+    5. #### Probar un ejemplo básico
 
         Abrir un terminal y ejecutar 
         ### Terminal 1
@@ -104,8 +100,8 @@ Todo este proceso que se detallará a continuacación esta grabado en este [vide
 
         ### Output
         #### Output terminal 1
-        <img src="./images/simple_publish_example.png" alt="Output terminal 1" width="400"/>  
+        <img src="../images/simple_publish_example.png" alt="Output terminal 1" width="400"/>  
 
         #### Output terminal 2
-        <img src="./images/simple_subscri_example.png" alt="Output terminal 2" width="340"/>
+        <img src="../images/simple_subscri_example.png" alt="Output terminal 2" width="340"/>
 
