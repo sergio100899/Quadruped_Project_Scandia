@@ -3,7 +3,7 @@
 
 ## Índice
 
-1. [Descripcion de paquetes](./doc/README.md)
+1. [Descripcion de paquetes](./doc/packages_doc.md)
 2. [Instalacion ROS2](./doc/install_ros.md)
 3. [Quadruped descripion](quadruped_description/README.md)
 3. [Quadruped gazebo](quadruped_gazebo/README.md)
