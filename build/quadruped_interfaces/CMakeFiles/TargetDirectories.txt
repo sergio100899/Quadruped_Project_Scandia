@@ -1,0 +1,9 @@
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/uninstall.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/quadruped_interfaces_uninstall.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/test.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/edit_cache.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/rebuild_cache.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/list_install_components.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/install.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/install/local.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_interfaces/CMakeFiles/install/strip.dir

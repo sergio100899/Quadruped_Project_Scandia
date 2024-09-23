@@ -1,0 +1,9 @@
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/uninstall.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/quadruped_description_uninstall.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/test.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/edit_cache.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/rebuild_cache.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/list_install_components.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/install.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/install/local.dir
+/home/sergio/Quadruped_Project_Scandia/build/quadruped_description/CMakeFiles/install/strip.dir
