@@ -1,4 +1,0 @@
-source;share/quadruped_interfaces/local_setup.bash
-source;share/quadruped_interfaces/local_setup.dsv
-source;share/quadruped_interfaces/local_setup.sh
-source;share/quadruped_interfaces/local_setup.zsh
