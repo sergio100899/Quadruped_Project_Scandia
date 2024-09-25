@@ -24,10 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 install(DIRECTORY
-  urdf
-  meshes
-  launch
-  rviz
+  Notspot
   DESTINATION share/${PROJECT_NAME}/
 
 )

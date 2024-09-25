@@ -10,13 +10,14 @@ def generate_launch_description():
 
     package_description = 'quadruped_description'
 
+    name_robot = 'Notspot'
     # archivos
     urdf_file_name = 'quadruped_robot.urdf'
     rviz_file_name = 'rviz_fake_joints.rviz'
 
     # paths
-    robot_desc_path = os.path.join(get_package_share_directory(package_description),'urdf', urdf_file_name)
-    rviz_config_path = os.path.join(get_package_share_directory(package_description),'rviz', rviz_file_name)
+    robot_desc_path = os.path.join(get_package_share_directory(package_description),name_robot,'urdf', urdf_file_name)
+    rviz_config_path = os.path.join(get_package_share_directory(package_description),name_robot,'rviz', rviz_file_name)
 
     # Convierto el archivo xacro a un string
     robot_description = ParameterValue(Command(['xacro ', robot_desc_path]), value_type=str)
