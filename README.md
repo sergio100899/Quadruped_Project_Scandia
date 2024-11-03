@@ -8,6 +8,7 @@
 3. [Quadruped descripion](quadruped_description/README.md)
 4. [Quadruped gazebo](quadruped_gazebo/README.md)
 5. [Test package](test_package/README.md)
+6. [Robots sim](robots_sim/README.md)
 
 ## Configuración
 
