@@ -1,6 +1,6 @@
 # Robots sim
 
-La simulación de cada robot se realizará en un espacio de trabajo diferente, esto con el fin de evitar conflictos de archivos y no contaminar nuestro estapacio de trabajo principal
+La simulación de cada robot se realizará en un espacio de trabajo diferente, esto con el fin de evitar conflictos de archivos y no contaminar nuestro espacio de trabajo principal
 
 ## 1. Rb1 robot
 
@@ -56,6 +56,7 @@ ros2 run teleop_twist_keyboard  teleop_twist_keyboard
 
 La documentación para simular este robot se encuentra en el siguiente enlace [Champ](https://github.com/chvmp/champ/tree/ros2) pero se recomienda seguir los pasos que se detallan abajo.
 
+
 ### 2.1 Simulación
 
 #### 2.1.1 Configuración
@@ -97,6 +98,10 @@ source ~/champ_ws/install/setup.bash
 
 **Gazebo**
 
+Nota: La primera vez que se ejecuta la simulación esta suele tardar alrededor de 1 a 3 min, esto debido a la cantidad de procesos a ejecutarse, esto solo sucederá la primera vez, luego el tiempo estimado es de 10 a 30 segundos. 
+
+Para poder ejecutar esta simulación es necesario aver seguido estos pasos [Quadruped](../README.md).
+
 Terminal 1 
 ```bash
 cd ~/champ_ws
@@ -120,7 +125,7 @@ Output
 
 <img src="./images/champ/rviz.png" alt="rviz" width="400"/>  
 
-### 2.1.3 Mover robot
+#### 2.1.3 Mover robot
 
 ```bash
 cd ~/champ_ws
