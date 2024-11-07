@@ -29,3 +29,9 @@
         Paquete que contiene los algoritmos para la generación y seguimiento de trayectorias.
 9. ### Quadruped Vision
     Este paquete agrupa todas las funcionalidades relacionadas con la visión, como la detección de obstáculos y el reconocimiento del entorno, utilizando herramientas como TensorFlow y YOLO.
+
+9. ### Test package
+    Este paquete agrupa todos los códigos para su testeo.
+
+10. ### Robots sim
+    Este paquete agrupa otras simulaciones de robots para su inspección y prueba.
